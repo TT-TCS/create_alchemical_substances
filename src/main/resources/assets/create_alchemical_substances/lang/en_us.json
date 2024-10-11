@@ -1,0 +1,16 @@
+{
+  "fluid.create_alchemical_substances.hydrogen_gas": "Hydrogen",
+  "fluid.create_alchemical_substances.nitrogen_gas": "Nitrogen",
+  "fluid.create_alchemical_substances.carbon_dioxide_gas": "Carbon Dioxide",
+  "fluid.create_alchemical_substances.oxygen_gas": "Oxygen",
+
+  "item.create_alchemical_substances.clean_raw_copper": "Clean Raw Copper",
+  "item.create_alchemical_substances.cobalt_ingot": "Cobalt Ingot",
+  "item.create_alchemical_substances.cobalt_nugget": "Cobalt Nugget",
+  "item.create_alchemical_substances.hydrogen_gas_bucket": "Hydrogen Bucket",
+  "item.create_alchemical_substances.nitrogen_gas_bucket": "Nitrogen Bucket",
+  "item.create_alchemical_substances.carbon_dioxide_gas_bucket": "Carbon Dioxide Bucket",
+  "item.create_alchemical_substances.oxygen_gas_bucket": "Oxygen Bucket",
+
+  "itemGroup.create_alchemical_substances": "Create Alchemical Substances"
+}
