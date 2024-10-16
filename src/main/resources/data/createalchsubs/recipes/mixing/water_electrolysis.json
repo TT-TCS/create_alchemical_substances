@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_alchemical_substances:cobalt_catalyst"
+    },
+    {
+      "amount": 9,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_alchemical_substances:cobalt_catalyst"
+    },
+    {
+      "amount": 1,
+      "fluid": "create_alchemical_substances:hydrogen"
+    },
+    {
+      "amount": 8,
+      "fluid": "create_alchemical_substances:oxygen"
+    }
+  ]
+}

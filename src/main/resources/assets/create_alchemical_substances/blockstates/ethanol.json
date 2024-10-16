@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_alchemical_substances:block/ethanol"
+    }
+  }
+}

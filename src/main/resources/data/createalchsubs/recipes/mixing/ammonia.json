@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 14,
+      "fluid": "create_alchemical_substances:nitrogen"
+    },
+    {
+      "amount": 3,
+      "fluid": "create_alchemical_substances:hydrogen"
+    }
+  ],
+  "results": [
+    {
+      "amount": 17,
+      "fluid": "create_alchemical_substances:ammonia"
+    }
+  ]
+}

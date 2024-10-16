@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "create_alchemical_substances:cobalt_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_alchemical_substances:cobalt_catalyst"
+    }
+  ]
+}

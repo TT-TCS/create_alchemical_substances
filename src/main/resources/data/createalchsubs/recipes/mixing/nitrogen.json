@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_alchemical_substances:nitrogen_zeolite"
+    }
+  ],
+  "results": [
+    {
+      "amount": 780,
+      "fluid": "create_alchemical_substances:nitrogen"
+    },
+    {
+      "item": "create_alchemical_substances:zeolite"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_alchemical_substances:fine_sugar"
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "create_alchemical_substances:ethanol"
+    },
+    {
+      "amount": 100,
+      "fluid": "create_alchemical_substances:carbon_dioxide"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "create_alchemical_substances:compressed_air"
+    },
+    {
+      "item": "create_alchemical_substances:zeolite"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_alchemical_substances:nitrogen_zeolite"
+    }
+  ]
+}

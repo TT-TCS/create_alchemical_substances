@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_alchemical_substances:compressed_air_bucket"
+    }
+  ]
+}

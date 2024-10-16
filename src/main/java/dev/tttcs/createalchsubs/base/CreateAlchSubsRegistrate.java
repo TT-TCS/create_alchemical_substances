@@ -2,11 +2,13 @@ package dev.tttcs.createalchsubs.base;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import dev.tttcs.createalchsubs.CreateAlchSubs;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class CreateAlchSubsRegistrate extends CreateRegistrate {
+    protected CreativeModeTab currentTab;
 
     public static String autoLang(String id) {
         StringBuilder builder = new StringBuilder();
@@ -25,6 +27,11 @@ public class CreateAlchSubsRegistrate extends CreateRegistrate {
 
     protected CreateAlchSubsRegistrate() {
         super(CreateAlchSubs.ID);
+    }
+
+    public void setCreativeTab(CreativeModeTab tab) {
+        currentTab = tab;
+        self();
     }
 
     public static CreateAlchSubsRegistrate create() {

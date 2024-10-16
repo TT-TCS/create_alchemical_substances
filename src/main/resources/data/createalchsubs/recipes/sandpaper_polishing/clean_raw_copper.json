@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_copper"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_alchemical_substances:clean_raw_copper"
+    }
+  ]
+}
