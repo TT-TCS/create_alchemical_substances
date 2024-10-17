@@ -5,7 +5,6 @@ import com.simibubi.create.AllFluids;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.fluids.VirtualFluid;
 import com.simibubi.create.foundation.utility.Color;
-import com.simibubi.create.infrastructure.config.AllConfigs;
 import com.tterrag.registrate.builders.FluidBuilder;
 import dev.tttcs.createalchsubs.CreateAlchSubs;
 import dev.tttcs.createalchsubs.base.CreateAlchSubsTags;
@@ -15,14 +14,12 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
@@ -51,16 +48,14 @@ public class FluidRegistry {
                     .build()
                     .register();
 
-    public static final FluidEntry<VirtualFluid> AIR = REGISTRATE.virtualFluid("compressed_air", CreateAlchSubs.asResource("fluid/compressed_air"), CreateAlchSubs.asResource("fluid/compressed_air"))
-            .lang("Compressed Air")
-            .register();
-
     public static final FluidEntry<VirtualFluid>
             CARBON_DIOXIDE = gas("carbon_dioxide", CreateAlchSubsTags.CreateAlchSubsFluidTags.CARBON_DIOXIDE.tag),
             HYDROGEN = gas("hydrogen", CreateAlchSubsTags.CreateAlchSubsFluidTags.HYDROGEN.tag),
             NITROGEN= gas("nitrogen", CreateAlchSubsTags.CreateAlchSubsFluidTags.NITROGEN.tag),
             OXYGEN = gas("oxygen", CreateAlchSubsTags.CreateAlchSubsFluidTags.OXYGEN.tag),
-            AMMONIA = gas("ammonia")
+            AMMONIA = gas("ammonia"),
+            COMPRESSED_AIR = gas("compressed_air"),
+            OXYHYDROGEN = gas("oxyhydrogen")
     ;
 
     @SafeVarargs

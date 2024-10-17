@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_alchemical_substances:ammonia_bucket"
+    },
+    "title": "The Haber Process",
+    "description": "Obtain Ammonia (NH₄), made with hydrogen and nitrogen in a process called the Haber process",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "create_alchemical_substances:zeolite",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_alchemical_substances:ammonia_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,12 +1,7 @@
 package dev.tttcs.createalchsubs.item;
 
-import com.tterrag.registrate.util.entry.ItemEntry;
 import dev.tttcs.createalchsubs.CreateAlchSubs;
-import dev.tttcs.createalchsubs.fluid.FluidRegistry;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,15 +47,9 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> NITROGEN_ZEOLITE = ITEMS.register("nitrogen_zeolite",
             () ->  new Item(new Item.Properties()
-                    .tab(CreateAlchSubs.TAB)
             ));
 
     public static final RegistryObject<Item> FINE_SUGAR = ITEMS.register("fine_sugar",
-            () ->  new Item(new Item.Properties()
-                    .tab(CreateAlchSubs.TAB)
-            ));
-
-    public static final RegistryObject<Item> COMPRESSED_AIR_BUCKET = ITEMS.register("compressed_air_bucket",
             () ->  new Item(new Item.Properties()
                     .tab(CreateAlchSubs.TAB)
             ));

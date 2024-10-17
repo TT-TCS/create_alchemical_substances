@@ -11,7 +11,8 @@
   ],
   "results": [
     {
-      "item": "create_alchemical_substances:nitrogen_zeolite"
+      "item": "create_alchemical_substances:nitrogen_zeolite",
+      "nbt": "{display:{Lore:['[\"\"]','[\"\",{\"text\":\"Contains:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Nitrogen\",\"italic\":false,\"color\":\"green\"}]']}}"
     }
   ]
 }

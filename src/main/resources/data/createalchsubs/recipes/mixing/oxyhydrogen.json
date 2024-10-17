@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 75,
+      "fluid": "create_alchemical_substances:hydrogen"
+    },
+    {
+      "amount": 25,
+      "fluid": "create_alchemical_substances:oxygen"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "create_alchemical_substances:oxyhydrogen"
+    }
+  ]
+}

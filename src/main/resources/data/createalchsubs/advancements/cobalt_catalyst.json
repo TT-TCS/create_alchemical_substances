@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_alchemical_substances:cobalt_catalyst"
+    },
+    "title": "",
+    "description": "Obtain a Cobalt Catalyst, used to split water into hydrogen and oxygen",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "create:mechanical_press",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_alchemical_substances:cobalt_catalyst"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

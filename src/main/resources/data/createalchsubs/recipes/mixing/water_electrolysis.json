@@ -5,7 +5,7 @@
       "item": "create_alchemical_substances:cobalt_catalyst"
     },
     {
-      "amount": 9,
+      "amount": 90,
       "fluid": "minecraft:water"
     }
   ],
@@ -14,11 +14,11 @@
       "item": "create_alchemical_substances:cobalt_catalyst"
     },
     {
-      "amount": 1,
+      "amount": 10,
       "fluid": "create_alchemical_substances:hydrogen"
     },
     {
-      "amount": 8,
+      "amount": 80,
       "fluid": "create_alchemical_substances:oxygen"
     }
   ]

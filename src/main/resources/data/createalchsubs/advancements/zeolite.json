@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_alchemical_substances:zeolite"
+    },
+    "title": "Spongy Rocks",
+    "description": "Obtain Zeolite, a porous rock capable of holding gases",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "create:millstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_alchemical_substances:zeolite"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

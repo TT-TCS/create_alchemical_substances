@@ -17,7 +17,7 @@
   "item.create_alchemical_substances.salt": "Salt",
   "item.create_alchemical_substances.fine_sugar": "Fine Sugar",
   "item.create_alchemical_substances.zeolite": "Zeolite",
-  "item.create_alchemical_substances.nitrogen_zeolite": "Zeolite (Nitrogen)",
+  "item.create_alchemical_substances.nitrogen_zeolite": "Zeolite",
 
   "item.create_alchemical_substances.hydrogen_bucket": "Hydrogen Bucket",
   "item.create_alchemical_substances.nitrogen_bucket": "Nitrogen Bucket",
@@ -26,6 +26,7 @@
   "item.create_alchemical_substances.ethanol_bucket": "Ethanol Bucket",
   "item.create_alchemical_substances.ammonia_bucket": "Ammonia Bucket",
   "item.create_alchemical_substances.compressed_air_bucket": "Compressed Air Bucket",
+  "item.create_alchemical_substances.oxyhydrogen_bucket": "Oxyhydrogen Bucket",
 
   "itemGroup.create_alchemical_substances": "Create Alchemical Substances"
 }
